@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: rallycoding/multi-server
+          image: iamvas/multi-server-10-14
           ports:
             - containerPort: 5000
           env:
